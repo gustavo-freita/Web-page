@@ -1,0 +1,45 @@
+/* como chamar uma variable = background-color: variables.$bg-color */
+/* como chamar um mixin = @include mixins.around */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+nav h1 {
+  color: #1090cb;
+  font-family: "poppins";
+  margin-left: 32px;
+  font-weight: 700;
+  font-size: 29px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  font-size: 16px;
+  font-family: "poppins";
+  font-weight: 400;
+  text-decoration: none;
+}
+nav ul button {
+  background: #1090cb;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */

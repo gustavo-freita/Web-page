@@ -1,0 +1,42 @@
+@use 'variables'
+@use 'mixin'
+/* como chamar uma variable = background-color: variables.$bg-color */
+/* como chamar um mixin = @include mixins.around */
+*
+    margin: 0
+    padding: 0
+    font-family: 'Poppins'
+
+nav
+    @include mixin.between
+    padding: 30px
+
+    h1
+        color: variables.$color-blue
+        font-family: 'poppins'
+        margin-left: 32px
+        font-weight: 700
+        font-size: 29px
+
+    ul
+        @include mixin.around
+        gap: 25px
+
+        li
+            list-style: none
+
+            a
+                font-size: variables.$font-small
+                font-family: 'poppins'
+                font-weight: 400
+                text-decoration: none
+        
+        button
+            background: variables.$color-blue
+            font-size: variables.$font-small
+            font-weight: 400
+            border: none
+            border-radius: 10px
+            color: #fff
+            padding: 10px
+
