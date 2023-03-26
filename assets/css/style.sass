@@ -27,6 +27,7 @@ nav
             list-style: none
 
             a
+                z-index: 1
                 font-size: variables.$font-small
                 font-family: 'poppins'
                 font-weight: 400
@@ -93,6 +94,7 @@ nav
             height: 763px
             left: 778px
             top: 16px
+            z-index: -1
 
         .image02
             position: absolute
@@ -105,9 +107,8 @@ nav
             position: absolute
             width: 68px
             height: 68px
-            left: 1318.59px
+            left: 1218.59px
             top: 205px
-            transform: rotate(57.89deg)
 
         .image04
             position: absolute
@@ -132,7 +133,7 @@ nav
             height: 504px
             left: 918px
             top: 105px
-            z-index: -1
+            z-index: -100
             background: radial-gradient(50% 50% at 50% 50%, #FDFFEA 50%, rgba(196, 196, 196, 0) 100%)
         
         .ellipse02
@@ -244,13 +245,6 @@ nav
 ////////////////////////*End of Section title style*///////////////////////
 
 ////////////////////////*Section information style start*////////////////////////
-.line
-    position: absolute
-    width: 791.01px
-    height: 1308.5px
-    left: 91.99px
-    top: 1153px
-    z-index: -1
 .first-content
     @include mixin.around
 
@@ -364,15 +358,15 @@ nav
 ////////////////////////*Section view-more style start*////////////////////////
 .view-more
     @include mixin.around
+    margin-top: 50px
     height: 100vh
 
     img
         position: absolute
         width: 120.26px
         height: 120.26px
-        left: 1197.86px
-        top: 3283px
-        transform: rotate(20.37deg)
+        left: 1157px
+        top: 2720px
 
     .viewmore-first-content
         @include mixin.center
@@ -410,10 +404,21 @@ nav
             background-color: #fff
             color: variables.$color-blue
             border: none
-
 ////////////////////////*End of Section view-more style*///////////////////////
 
 ////////////////////////*Section companies style start*////////////////////////
+.companies
+    @include mixin.center
+    flex-direction: column
+
+    h1
+        font-size: 24px
+        font-weight: 500
+        margin-bottom: 15px
+
+    .logo
+        @include mixin.center
+        gap: 115px
 ////////////////////////*End of Section companies style*///////////////////////
 
 ////////////////////////*Section footer style start*////////////////////////

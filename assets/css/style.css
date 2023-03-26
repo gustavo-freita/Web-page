@@ -29,6 +29,7 @@ nav ul li {
   list-style: none;
 }
 nav ul li a {
+  z-index: 1;
   font-size: 16px;
   font-family: "poppins";
   font-weight: 400;
@@ -107,6 +108,7 @@ nav ul button {
   height: 763px;
   left: 778px;
   top: 16px;
+  z-index: -1;
 }
 .first-page .images .image02 {
   position: absolute;
@@ -119,9 +121,8 @@ nav ul button {
   position: absolute;
   width: 68px;
   height: 68px;
-  left: 1318.59px;
+  left: 1218.59px;
   top: 205px;
-  transform: rotate(57.89deg);
 }
 .first-page .images .image04 {
   position: absolute;
@@ -146,7 +147,7 @@ nav ul button {
   height: 504px;
   left: 918px;
   top: 105px;
-  z-index: -1;
+  z-index: -100;
   background: radial-gradient(50% 50% at 50% 50%, #FDFFEA 50%, rgba(196, 196, 196, 0) 100%);
 }
 .first-page .images .ellipse02 {
@@ -305,15 +306,6 @@ nav ul button {
   font-weight: 400;
   line-height: 31.5px;
   text-align: center;
-}
-
-.line {
-  position: absolute;
-  width: 791.01px;
-  height: 1308.5px;
-  left: 91.99px;
-  top: 1153px;
-  z-index: -1;
 }
 
 .first-content {
@@ -497,15 +489,15 @@ nav ul button {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 50px;
   height: 100vh;
 }
 .view-more img {
   position: absolute;
   width: 120.26px;
   height: 120.26px;
-  left: 1197.86px;
-  top: 3283px;
-  transform: rotate(20.37deg);
+  left: 1157px;
+  top: 2720px;
 }
 .view-more .viewmore-first-content {
   display: flex;
@@ -588,4 +580,22 @@ nav ul button {
   background-color: #fff;
   color: #1090cb;
   border: none;
+}
+
+.companies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.companies h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.companies .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 115px;
 }/*# sourceMappingURL=style.css.map */
