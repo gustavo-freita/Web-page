@@ -295,14 +295,200 @@ nav ul button {
   margin-top: 55px;
 }
 .title-middle h1 {
-  font-size: 30px;
+  font-size: 33px;
   font-weight: 600;
   line-height: 52.8px;
   text-align: cernter;
 }
 .title-middle p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 31.5px;
   text-align: center;
+}
+
+.line {
+  position: absolute;
+  width: 791.01px;
+  height: 1308.5px;
+  left: 91.99px;
+  top: 1153px;
+  z-index: -1;
+}
+
+.first-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.first-content .description {
+  width: 516px;
+  height: 389px;
+  margin-left: 123px;
+}
+.first-content .description .title {
+  display: flex;
+  gap: 20px;
+}
+.first-content .description .title span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 58px;
+  height: 58px;
+  background-color: #08d3bb;
+}
+.first-content .description .title span img {
+  width: 26px;
+  height: 26px;
+}
+.first-content .description .title .mobile-content h1 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 29.75px;
+  color: #000;
+}
+.first-content .description .title .mobile-content p {
+  color: #868686;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.5px;
+}
+.first-content .description h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 51px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.first-content .description h2 span {
+  color: #1090cb;
+}
+.first-content .description p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+}
+.first-content img {
+  width: 738px;
+  height: 511px;
+}
+
+.second-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.second-content img {
+  width: 738px;
+  height: 511px;
+  padding: 0 100px;
+}
+.second-content .description {
+  width: 516px;
+  height: 389px;
+}
+.second-content .description .title {
+  display: flex;
+  gap: 20px;
+}
+.second-content .description .title span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 58px;
+  height: 58px;
+  background-color: #1090cb;
+}
+.second-content .description .title span img {
+  width: 26px;
+  height: 26px;
+}
+.second-content .description .title .mobile-content h1 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 29.75px;
+  color: #000;
+}
+.second-content .description .title .mobile-content p {
+  color: #868686;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.5px;
+}
+.second-content .description h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 51px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.second-content .description h2 span {
+  color: #1090cb;
+}
+.second-content .description p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+}
+
+.third-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.third-content .description {
+  width: 516px;
+  height: 389px;
+  margin-left: 123px;
+}
+.third-content .description .title {
+  display: flex;
+  gap: 20px;
+}
+.third-content .description .title span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 58px;
+  height: 58px;
+  background-color: #9208d3;
+}
+.third-content .description .title span img {
+  width: 26px;
+  height: 26px;
+}
+.third-content .description .title .mobile-content h1 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 29.75px;
+  color: #000;
+}
+.third-content .description .title .mobile-content p {
+  color: #868686;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.5px;
+}
+.third-content .description h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 51px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.third-content .description h2 span {
+  color: #1090cb;
+}
+.third-content .description p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+}
+.third-content img {
+  width: 738px;
+  height: 511px;
 }/*# sourceMappingURL=style.css.map */

@@ -231,19 +231,135 @@ nav
     margin-top: 55px
 
     h1
-        font-size: variables.$font-big
+        font-size: 33px
         font-weight: 600
         line-height: 52.8px
         text-align: cernter
 
     p
-        font-size: variables.$font-small-big
+        font-size: 18px
         font-weight: 400
         line-height: 31.5px
         text-align: center 
 ////////////////////////*End of Section title style*///////////////////////
 
 ////////////////////////*Section information style start*////////////////////////
+.line
+    position: absolute
+    width: 791.01px
+    height: 1308.5px
+    left: 91.99px
+    top: 1153px
+    z-index: -1
+.first-content
+    @include mixin.around
+
+    .description
+        @include mixin.information-descriotion
+        margin-left: 123px
+
+        .title
+            @include mixin.information-title
+
+            span
+                @include mixin.center
+                @include mixin.information-span
+                background-color: variables.$color-first-ellipse 
+
+                img
+                    @include mixin.information-img1
+
+            .mobile-content
+                h1
+                   @include mixin.information-h1
+
+                p
+                    @include mixin.information-p1
+
+        h2
+            @include mixin.information-h2
+
+            span
+                color: variables.$color-blue
+                
+        p
+            @include mixin.information-p2
+    img
+        @include mixin.information-img2
+
+.second-content
+    @include mixin.around
+ 
+    img
+        @include mixin.information-img2
+        padding: 0 100px
+        
+    .description
+        @include mixin.information-descriotion
+
+        .title
+            @include mixin.information-title
+
+            span
+                @include mixin.center
+                @include mixin.information-span
+                background-color: variables.$color-second-ellipse 
+
+                img
+                    @include mixin.information-img1
+
+            .mobile-content
+                h1
+                   @include mixin.information-h1
+
+                p
+                    @include mixin.information-p1
+
+        h2
+            @include mixin.information-h2
+
+            span
+                color: variables.$color-blue
+
+        p
+            @include mixin.information-p2
+
+.third-content
+    @include mixin.around
+
+    .description
+        @include mixin.information-descriotion
+        margin-left: 123px
+
+        .title
+            @include mixin.information-title
+
+            span
+                @include mixin.center
+                @include mixin.information-span
+                background-color: variables.$color-third-ellipse 
+
+                img
+                    @include mixin.information-img1
+
+            .mobile-content
+                h1
+                   @include mixin.information-h1
+
+                p
+                    @include mixin.information-p1
+
+        h2
+            @include mixin.information-h2
+
+            span
+                color: variables.$color-blue
+
+        p
+            @include mixin.information-p2
+    img
+        @include mixin.information-img2
+        
 ////////////////////////*End of Section information style*///////////////////////
 
 ////////////////////////*Section view-more style start*////////////////////////
