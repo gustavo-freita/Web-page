@@ -157,4 +157,131 @@ nav ul button {
   top: 125px;
   z-index: -1;
   background: radial-gradient(50% 50% at 50% 50%, #FDFFEA 50%, rgba(196, 196, 196, 0) 100%);
+}
+
+.benefits {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 20vh;
+}
+.benefits .web {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.benefits .web span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 83px;
+  height: 83px;
+  border-radius: 20px;
+  background-color: #FDFFEA;
+}
+.benefits .web span img {
+  width: 41px;
+  height: 41px;
+}
+.benefits .web h1 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  line-height: 35px;
+}
+.benefits .web p {
+  font-size: 16px;
+  color: #969696;
+  font-weight: 400;
+}
+.benefits .seo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.benefits .seo span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 83px;
+  height: 83px;
+  border-radius: 20px;
+  background-color: #ECFFDA;
+}
+.benefits .seo span img {
+  width: 41px;
+  height: 41px;
+}
+.benefits .seo h1 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  line-height: 35px;
+}
+.benefits .seo p {
+  font-size: 16px;
+  color: #969696;
+  font-weight: 400;
+}
+.benefits .solutions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.benefits .solutions span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 83px;
+  height: 83px;
+  border-radius: 20px;
+  background-color: #DAE6FF;
+}
+.benefits .solutions span img {
+  width: 41px;
+  height: 41px;
+}
+.benefits .solutions h1 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  line-height: 35px;
+}
+.benefits .solutions p {
+  font-size: 16px;
+  color: #969696;
+  font-weight: 400;
+}
+.benefits .mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.benefits .mobile span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 83px;
+  height: 83px;
+  border-radius: 20px;
+  background-color: #FFE5DA;
+}
+.benefits .mobile span img {
+  width: 41px;
+  height: 41px;
+}
+.benefits .mobile h1 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  line-height: 35px;
+}
+.benefits .mobile p {
+  font-size: 16px;
+  color: #969696;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

@@ -142,11 +142,89 @@ nav
             left: -111px
             top: 125px
             z-index: -1
-            background: radial-gradient(50% 50% at 50% 50%, #FDFFEA 50%, rgba(196, 196, 196, 0) 100%)
-        
+            background: radial-gradient(50% 50% at 50% 50%, #FDFFEA 50%, rgba(196, 196, 196, 0) 100%)       
 ////////////////////////*End of Section first-page style*///////////////////////
 
 ////////////////////////*Section benefits style start*////////////////////////
+.benefits
+    @include mixin.around
+    height: 20vh
+    
+    .web
+        @include mixin.center
+        gap: 16px
+
+        span
+            @include mixin.center
+            @include mixin.benefits-span
+            background-color: #FDFFEA
+
+            img
+                @include mixin.benefits-img
+        
+        h1
+            @include mixin.benefits-h1
+        
+        p
+            @include mixin.benefits-p
+    
+    .seo
+        @include mixin.center
+        gap: 16px
+
+        span
+            @include mixin.center
+            @include mixin.benefits-span
+            background-color: #ECFFDA
+
+            img
+                @include mixin.benefits-img
+        
+        h1
+            @include mixin.benefits-h1
+        
+        p
+            @include mixin.benefits-p
+    
+    .solutions
+        @include mixin.center
+        gap: 16px
+
+        span
+            @include mixin.center
+            @include mixin.benefits-span
+            background-color: #DAE6FF
+
+            img
+                @include mixin.benefits-img
+        
+        h1
+            @include mixin.benefits-h1
+        
+        p
+            @include mixin.benefits-p
+    
+    .mobile
+        @include mixin.center
+        gap: 16px
+
+        span
+            @include mixin.center
+            @include mixin.benefits-span
+            background-color: #FFE5DA
+
+            img
+                @include mixin.benefits-img
+        
+        h1
+            @include mixin.benefits-h1
+        
+        p
+            @include mixin.benefits-p
+
+
+
+    
 ////////////////////////*End of Section benefits style*///////////////////////
 
 ////////////////////////*Section title style start*////////////////////////
