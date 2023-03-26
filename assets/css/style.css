@@ -491,4 +491,101 @@ nav ul button {
 .third-content img {
   width: 738px;
   height: 511px;
+}
+
+.view-more {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+.view-more img {
+  position: absolute;
+  width: 120.26px;
+  height: 120.26px;
+  left: 1197.86px;
+  top: 3283px;
+  transform: rotate(20.37deg);
+}
+.view-more .viewmore-first-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 572px;
+  height: 459px;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+}
+.view-more .viewmore-first-content h1 {
+  width: 365px;
+  height: 84px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 170%;
+  text-align: center;
+  color: #252525;
+}
+.view-more .viewmore-first-content p {
+  font-size: 16px;
+  padding: 48px 48px;
+  width: 476px;
+  height: 141px;
+  font-weight: 400;
+  line-height: 170%;
+  text-align: center;
+  color: #545454;
+}
+.view-more .viewmore-first-content .button-first {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32.69px;
+  border-radius: 10px;
+  width: 193px;
+  height: 51px;
+  background-color: #1090cb;
+  color: #fff;
+  border: none;
+}
+.view-more .viewmore-second-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 572px;
+  height: 459px;
+  border-radius: 20px;
+  background-color: #1090cb;
+}
+.view-more .viewmore-second-content h1 {
+  width: 365px;
+  height: 84px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 170%;
+  text-align: center;
+  color: #252525;
+  color: #fff;
+}
+.view-more .viewmore-second-content p {
+  font-size: 16px;
+  padding: 48px 48px;
+  width: 476px;
+  height: 141px;
+  font-weight: 400;
+  line-height: 170%;
+  text-align: center;
+  color: #545454;
+  color: #fff;
+}
+.view-more .viewmore-second-content .button-second {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32.69px;
+  border-radius: 10px;
+  width: 193px;
+  height: 51px;
+  background-color: #fff;
+  color: #1090cb;
+  border: none;
 }/*# sourceMappingURL=style.css.map */

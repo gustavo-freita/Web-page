@@ -359,10 +359,58 @@ nav
             @include mixin.information-p2
     img
         @include mixin.information-img2
-        
 ////////////////////////*End of Section information style*///////////////////////
 
 ////////////////////////*Section view-more style start*////////////////////////
+.view-more
+    @include mixin.around
+    height: 100vh
+
+    img
+        position: absolute
+        width: 120.26px
+        height: 120.26px
+        left: 1197.86px
+        top: 3283px
+        transform: rotate(20.37deg)
+
+    .viewmore-first-content
+        @include mixin.center
+        @include mixin.viewmore-content
+        background-color: #f4f4f4
+
+        h1
+            @include mixin.viewmore-h1
+        
+        p
+            @include mixin.viewmore-p
+            
+
+        .button-first
+            @include mixin.button
+            background-color: variables.$color-blue
+            color: #fff
+            border: none
+    
+    .viewmore-second-content
+        @include mixin.center
+        @include mixin.viewmore-content
+        background-color: variables.$color-blue
+
+        h1
+            @include mixin.viewmore-h1
+            color: #fff
+        
+        p
+            @include mixin.viewmore-p
+            color: #fff
+        
+        .button-second
+            @include mixin.button
+            background-color: #fff
+            color: variables.$color-blue
+            border: none
+
 ////////////////////////*End of Section view-more style*///////////////////////
 
 ////////////////////////*Section companies style start*////////////////////////
