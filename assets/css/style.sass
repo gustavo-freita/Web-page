@@ -7,6 +7,7 @@
     padding: 0
     font-family: 'Poppins'
 
+////////////////////////*Header style start*////////////////////////
 nav
     @include mixin.between
     padding: 30px
@@ -30,6 +31,7 @@ nav
                 font-family: 'poppins'
                 font-weight: 400
                 text-decoration: none
+                color: #000
         
         button
             background: variables.$color-blue
@@ -39,4 +41,126 @@ nav
             border-radius: 10px
             color: #fff
             padding: 10px
+////////////////////////*End of header style*////////////////////////
 
+////////////////////////*HOME page style start*////////////////////////
+////////////////////////*Section first-page style start*////////////////////////
+.first-page
+    @include mixin.around
+    background-color: variables.$color-background
+    height: 100vh
+
+    .content
+        position: absolute
+        width: 630px
+        height: 450px
+        left: 123px
+        top: 230px
+        
+        h1
+            font-size: variables.$font-title
+            font-weight: 600
+            line-height: 60px
+
+            span
+                color: variables.$color-blue
+        
+        p
+            font-size: variables.$font-small
+            font-weight: 400
+            line-height: 32.69px
+            margin-top: 26px
+        
+        .contact
+            @include mixin.button
+            background-color: variables.$color-blue
+            border: none
+            color: #fff
+            margin-top: 63px
+            
+        .view
+            @include mixin.button
+            color: variables.$color-blue
+            border: 2px solid variables.$color-blue
+            margin-left: 20px
+    
+    .images
+        @include mixin.around
+
+        .image01
+            position: absolute
+            width: 509px
+            height: 763px
+            left: 778px
+            top: 16px
+
+        .image02
+            position: absolute
+            width: 185px
+            height: 185px
+            left: 1190px
+            top: 547px
+
+        .image03
+            position: absolute
+            width: 68px
+            height: 68px
+            left: 1318.59px
+            top: 205px
+            transform: rotate(57.89deg)
+
+        .image04
+            position: absolute
+            width: 66px
+            height: 66px
+            left: 885px
+            top: 291px
+
+        .image05
+            position: absolute
+            right: 0
+            top: 275px
+
+        .image06
+            position: absolute
+            left: 0
+            top: 278px
+
+        .ellipse01
+            position: absolute
+            width: 496px
+            height: 504px
+            left: 918px
+            top: 105px
+            z-index: -1
+            background: radial-gradient(50% 50% at 50% 50%, #FDFFEA 50%, rgba(196, 196, 196, 0) 100%)
+        
+        .ellipse02
+            position: absolute
+            width: 496px
+            height: 504px
+            left: -111px
+            top: 125px
+            z-index: -1
+            background: radial-gradient(50% 50% at 50% 50%, #FDFFEA 50%, rgba(196, 196, 196, 0) 100%)
+        
+////////////////////////*End of Section first-page style*///////////////////////
+
+////////////////////////*Section benefits style start*////////////////////////
+////////////////////////*End of Section benefits style*///////////////////////
+
+////////////////////////*Section title style start*////////////////////////
+////////////////////////*End of Section title style*///////////////////////
+
+////////////////////////*Section information style start*////////////////////////
+////////////////////////*End of Section information style*///////////////////////
+
+////////////////////////*Section view-more style start*////////////////////////
+////////////////////////*End of Section view-more style*///////////////////////
+
+////////////////////////*Section companies style start*////////////////////////
+////////////////////////*End of Section companies style*///////////////////////
+
+////////////////////////*Section footer style start*////////////////////////
+////////////////////////*End of Section footer style*///////////////////////
+////////////////////////*End of HOME page style*///////////////////////

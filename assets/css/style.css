@@ -33,6 +33,7 @@ nav ul li a {
   font-family: "poppins";
   font-weight: 400;
   text-decoration: none;
+  color: #000;
 }
 nav ul button {
   background: #1090cb;
@@ -42,4 +43,118 @@ nav ul button {
   border-radius: 10px;
   color: #fff;
   padding: 10px;
+}
+
+.first-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(16, 144, 203, 0.1);
+  height: 100vh;
+}
+.first-page .content {
+  position: absolute;
+  width: 630px;
+  height: 450px;
+  left: 123px;
+  top: 230px;
+}
+.first-page .content h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.first-page .content h1 span {
+  color: #1090cb;
+}
+.first-page .content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32.69px;
+  margin-top: 26px;
+}
+.first-page .content .contact {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32.69px;
+  border-radius: 10px;
+  width: 193px;
+  height: 51px;
+  background-color: #1090cb;
+  border: none;
+  color: #fff;
+  margin-top: 63px;
+}
+.first-page .content .view {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32.69px;
+  border-radius: 10px;
+  width: 193px;
+  height: 51px;
+  color: #1090cb;
+  border: 2px solid #1090cb;
+  margin-left: 20px;
+}
+.first-page .images {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.first-page .images .image01 {
+  position: absolute;
+  width: 509px;
+  height: 763px;
+  left: 778px;
+  top: 16px;
+}
+.first-page .images .image02 {
+  position: absolute;
+  width: 185px;
+  height: 185px;
+  left: 1190px;
+  top: 547px;
+}
+.first-page .images .image03 {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  left: 1318.59px;
+  top: 205px;
+  transform: rotate(57.89deg);
+}
+.first-page .images .image04 {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  left: 885px;
+  top: 291px;
+}
+.first-page .images .image05 {
+  position: absolute;
+  right: 0;
+  top: 275px;
+}
+.first-page .images .image06 {
+  position: absolute;
+  left: 0;
+  top: 278px;
+}
+.first-page .images .ellipse01 {
+  position: absolute;
+  width: 496px;
+  height: 504px;
+  left: 918px;
+  top: 105px;
+  z-index: -1;
+  background: radial-gradient(50% 50% at 50% 50%, #FDFFEA 50%, rgba(196, 196, 196, 0) 100%);
+}
+.first-page .images .ellipse02 {
+  position: absolute;
+  width: 496px;
+  height: 504px;
+  left: -111px;
+  top: 125px;
+  z-index: -1;
+  background: radial-gradient(50% 50% at 50% 50%, #FDFFEA 50%, rgba(196, 196, 196, 0) 100%);
 }/*# sourceMappingURL=style.css.map */
