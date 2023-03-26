@@ -284,4 +284,25 @@ nav ul button {
   font-size: 16px;
   color: #969696;
   font-weight: 400;
+}
+
+.title-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 55px;
+  margin-top: 55px;
+}
+.title-middle h1 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 52.8px;
+  text-align: cernter;
+}
+.title-middle p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31.5px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

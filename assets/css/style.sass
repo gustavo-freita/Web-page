@@ -220,14 +220,27 @@ nav
             @include mixin.benefits-h1
         
         p
-            @include mixin.benefits-p
-
-
-
-    
+            @include mixin.benefits-p    
 ////////////////////////*End of Section benefits style*///////////////////////
 
 ////////////////////////*Section title style start*////////////////////////
+.title-middle
+    @include mixin.center
+    flex-direction: column
+    margin-bottom: 55px
+    margin-top: 55px
+
+    h1
+        font-size: variables.$font-big
+        font-weight: 600
+        line-height: 52.8px
+        text-align: cernter
+
+    p
+        font-size: variables.$font-small-big
+        font-weight: 400
+        line-height: 31.5px
+        text-align: center 
 ////////////////////////*End of Section title style*///////////////////////
 
 ////////////////////////*Section information style start*////////////////////////
