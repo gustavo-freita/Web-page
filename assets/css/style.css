@@ -753,4 +753,306 @@ footer .copyright {
   font-size: 17px;
   font-weight: 400;
   margin-top: 80px;
+}
+
+.aboutus-beginning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 120vh;
+}
+.aboutus-beginning .beginning-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 165px;
+}
+.aboutus-beginning .beginning-info .beginning-img1 {
+  width: 247px;
+  height: 259px;
+  margin-right: 50px;
+}
+.aboutus-beginning .beginning-info .beginning-img2 {
+  width: 288px;
+  height: 346px;
+}
+.aboutus-beginning .beginning-info .information {
+  margin-left: 69px;
+  width: 565px;
+  height: 318px;
+}
+.aboutus-beginning .beginning-info .information h1 {
+  color: #1090cb;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 37.5px;
+}
+.aboutus-beginning .beginning-info .information h2 {
+  width: 565px;
+  height: 128px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 68px;
+  margin-top: 10px;
+  margin-bottom: 37px;
+}
+.aboutus-beginning .beginning-info .information p {
+  width: 463px;
+  height: 96px;
+  color: #868686;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31.5px;
+}
+.aboutus-beginning .images {
+  margin-top: 75px;
+}
+.aboutus-beginning .images .beginning-img3 {
+  width: 521px;
+  height: 346px;
+  margin-right: 51px;
+}
+.aboutus-beginning .images .beginning-img4 {
+  width: 542px;
+  height: 346px;
+}
+.aboutus-beginning .beginning-img5 {
+  position: absolute;
+  right: 0;
+  top: -80px;
+}
+.aboutus-beginning .beginning-img6 {
+  position: absolute;
+  left: 0;
+  top: 564px;
+}
+
+.aboutus-information1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 200px;
+}
+.aboutus-information1 h1 {
+  color: #1090cb;
+  height: 807px;
+  height: 148px;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 72px;
+  margin-bottom: 48px;
+  margin-right: 250px;
+}
+.aboutus-information1 p {
+  color: #868686;
+  width: 1014px;
+  height: 167px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.about-information2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+.about-information2 .more-information {
+  width: 499px;
+  height: 437px;
+}
+.about-information2 .more-information span {
+  width: 54px;
+  height: 5px;
+  background-color: #4628a4;
+}
+.about-information2 .more-information h1 {
+  font-size: 30px;
+  width: 499px;
+  height: 109px;
+  font-weight: 600;
+  line-height: 48px;
+}
+.about-information2 .more-information p {
+  color: #969696;
+  font-size: 20px;
+  font-weight: 400;
+  width: 487px;
+  height: 151px;
+}
+.about-information2 .more-information button {
+  font-size: 16px;
+  color: #1090cb;
+  border: 2px solid #1090cb;
+  font-weight: 400;
+  text-align: center;
+  width: 193px;
+  height: 51px;
+  border-radius: 10px;
+}
+.about-information2 .products {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 766px;
+  height: 395px;
+  box-shadow: 0px 4px 124px rgba(0, 0, 0, 0.1);
+}
+.about-information2 .products .first {
+  display: flex;
+  gap: 90px;
+}
+.about-information2 .products .first .first-content {
+  display: flex;
+  gap: 10px;
+}
+.about-information2 .products .first .space {
+  margin-right: 100px;
+}
+.about-information2 .products .first .space .icone1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 91px;
+  height: 90px;
+  border-radius: 20px;
+  background-color: #fff2f2;
+}
+.about-information2 .products .first .space .icone1 img {
+  width: 41px;
+  height: 41px;
+}
+.about-information2 .products .first .space .box1 {
+  margin-top: 25px;
+  width: 212px;
+  height: 44px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  color: #2e0d64;
+}
+.about-information2 .products .first .second-content {
+  display: flex;
+  gap: 10px;
+}
+.about-information2 .products .first .second-content .icone2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 91px;
+  height: 90px;
+  border-radius: 20px;
+  background-color: #e2f3ff;
+}
+.about-information2 .products .first .second-content .icone2 img {
+  width: 41px;
+  height: 41px;
+}
+.about-information2 .products .first .second-content p {
+  margin-left: 0;
+  margin-top: 25px;
+  width: 60px;
+  height: 44px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  color: #2e0d64;
+}
+.about-information2 .products .second {
+  display: flex;
+  gap: 56px;
+}
+.about-information2 .products .second .first-content {
+  display: flex;
+  gap: 10px;
+}
+.about-information2 .products .second .space2 {
+  width: 366px;
+  height: 90px;
+  margin-right: 50px;
+}
+.about-information2 .products .second .space2 .icone3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 91px;
+  height: 90px;
+  border-radius: 20px;
+  background-color: #f1e8ff;
+}
+.about-information2 .products .second .space2 .icone3 img {
+  width: 41px;
+  height: 41px;
+}
+.about-information2 .products .second .space2 p {
+  margin-top: 25px;
+  width: 212px;
+  height: 44px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  color: #2e0d64;
+}
+.about-information2 .products .second .second-content {
+  display: flex;
+  gap: 10px;
+}
+.about-information2 .products .second .second-content .icone4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 91px;
+  height: 90px;
+  border-radius: 20px;
+  background-color: #ffe7fb;
+}
+.about-information2 .products .second .second-content .icone4 img {
+  width: 41px;
+  height: 41px;
+}
+.about-information2 .products .second .second-content p {
+  margin-left: 0;
+  margin-top: 25px;
+  width: 60px;
+  height: 44px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  color: #2e0d64;
+}
+
+.aboutus-team {
+  height: 100vh;
+}
+.aboutus-team h1 {
+  width: 125px;
+  height: 43px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.aboutus-team .team-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.aboutus-team .team-info img {
+  width: 300px;
+}
+.aboutus-team .team-info h2 {
+  font-size: 16px;
+  color: #6a6a6a;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 22px;
+}
+.aboutus-team .team-info p {
+  font-size: 18px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
