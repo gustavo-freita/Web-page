@@ -677,11 +677,7 @@ footer
     .more-information
         width: 499px
         height: 437px
-
-        span
-            width: 54px
-            height: 5px
-            background-color: #4628a4
+        margin-left: 50px
 
         h1
             font-size: variables.$font-big
@@ -689,6 +685,8 @@ footer
             height: 109px
             font-weight: 600
             line-height: 48px
+            margin-bottom: 31px
+            margin-top: 28px
 
         p
             color: variables.$color-other-grey
@@ -696,6 +694,7 @@ footer
             font-weight: 400
             width: 487px
             height: 151px
+            margin-bottom: 62px
         
         button
             font-size: variables.$font-small
@@ -706,6 +705,7 @@ footer
             width: 193px
             height: 51px
             border-radius: 10px
+            background-color: #fff 
 
     .products
         @include mixin.around
@@ -718,11 +718,10 @@ footer
             display: flex
             gap:90px
             
-            .first-content
+            .first-content1
                 @include mixin.products-firstcont
-
-            .space
-                margin-right: 100px
+                width: 332px
+                height: 90px
 
                 .icone1
                     @include mixin.center
@@ -734,10 +733,16 @@ footer
                         @include mixin.products-img
                 
                 .box1
-                    @include mixin.products-p
+                    @include mixin.products-p              
+                    width: 212px
+                    height: 44px
+                    margin-top: 30px
                 
-            .second-content
+            .second-content2
                 @include mixin.products-firstcont
+                margin-right: 121px
+                width: 162px
+                height: 90px
 
                 .icone2
                     @include mixin.center
@@ -747,20 +752,17 @@ footer
                     img
                         @include mixin.products-img
                 
-                p
+                .box2
                     @include mixin.products-p2
 
         .second
             display: flex
             gap:56px
             
-            .first-content
+            .first-content3
                 @include mixin.products-firstcont
-
-            .space2
                 width: 366px
-                height: 90px
-                margin-right: 50px    
+                height: 90px    
 
                 .icone3
                     @include mixin.center
@@ -770,11 +772,17 @@ footer
                     img
                         @include mixin.products-img
                 
-                p
+                .box3
                     @include mixin.products-p
+                    margin-top: 30px
+                    width: 253px
+                    height: 44px
                 
-            .second-content
+            .second-content4
                 @include mixin.products-firstcont
+                margin-right: 91px
+                width: 192px
+                height: 90px
 
                 .icone4
                     @include mixin.center
@@ -784,7 +792,7 @@ footer
                     img
                         @include mixin.products-img
                 
-                p
+                .box4
                     @include mixin.products-p2            
 
 ////////////////////////*End of aboutus-information2 page style*///////////////////////
@@ -818,7 +826,19 @@ footer
             font-size: 18px
             font-weight: 600
             
-            
+.star2
+    position: absolute
+    width: 66px
+    height: 66px
+    left: 167px 
+    top: 2980px     
+
+.paichart2 
+    position: absolute
+    width: 54px
+    height: 54px
+    left: 939px
+    top: 3150px   
 ////////////////////////*End of aboutus-information1 page style*///////////////////////
 
 ////////////////////////*End of ABOUT US page style*///////////////////////
