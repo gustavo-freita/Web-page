@@ -840,5 +840,298 @@ footer
     left: 939px
     top: 3150px   
 ////////////////////////*End of aboutus-information1 page style*///////////////////////
-
 ////////////////////////*End of ABOUT US page style*///////////////////////
+
+////////////////////////*Start of SERVICES page style*///////////////////////
+////////////////////////*Start of section-services-home page style*///////////////////////
+.services-home
+    @include mixin.center
+    background-color: variables.$color-background
+    flex-direction: column
+    width: 100%
+    height: 100vh
+
+    .home-info
+        @include mixin.center
+        flex-direction: column
+        width: 440px
+        height: 331px
+
+        .back
+            @include mixin.center
+            border-radius: 50%
+            width: 135px
+            height: 135px
+            background-color: #fff
+            margin-bottom: 25px
+        
+        h1
+            font-size: variables.$font-title
+            font-weight: 400
+            width: 254px
+            height: 60px
+            margin-bottom: 20px
+
+            span
+                color: variables.$color-blue
+                font-weight: 500
+
+        p
+            color: variables.$color-grey-weak
+            widows: 440px
+            height: 96px
+            text-align: center
+            font-size: 18px
+            font-weight: 400
+        
+    .home-group
+        @include mixin.center
+        flex-direction: column
+        position: absolute
+        top: 583px
+        width: 1203px
+        height: 441px
+        background-color: #fff
+        box-shadow: 0px 4px 114px rgba(0, 0, 0, 0.09)
+        border-radius: 10px
+        
+
+        .home-first
+            display: flex
+
+            .home-first-content1
+                display: flex
+                width: 453px
+                height: 105px
+                gap: 39px
+
+                .home-icon1
+                    @include mixin.center
+                    @include mixin.products-icon
+                    background: #F1E8FF
+
+                .home-content1
+                    display: flex
+                    flex-direction: column
+               
+                    h1
+                        @include mixin.services-home-h1
+                    
+                    p
+                        @include mixin.services-home-p
+            
+            .home-second-content2
+                display: flex
+                width: 485px
+                height: 107px
+                gap: 39px
+                margin-left: 98px
+
+                .home-icon2
+                    @include mixin.center
+                    @include mixin.products-icon
+                    background: #FFF2F2
+
+                .home-content2
+                    display: flex
+                    flex-direction: column
+               
+                    h1
+                        @include mixin.services-home-h1
+                    
+                    p
+                        @include mixin.services-home-p
+
+        .home-second
+            display: flex
+            margin-top: 5%    
+
+            .home-first-content3
+                display: flex
+                width: 513px
+                height: 108px
+                gap: 39px
+                margin-right: 10px
+
+                .home-icon3
+                    @include mixin.center
+                    @include mixin.products-icon
+                    background: #E2F3FF
+
+                .home-content3
+                    display: flex
+                    flex-direction: column
+               
+                    h1
+                        @include mixin.services-home-h1
+                    
+                    p
+                        @include mixin.services-home-p
+            
+            .home-second-content4
+                display: flex
+                width: 508px
+                height: 109px
+                gap: 39px
+                margin-left: 5%
+
+                .home-icon4
+                    @include mixin.center
+                    @include mixin.products-icon
+                    background: #FFF2F2
+
+                .home-content4
+                    display: flex
+                    flex-direction: column
+               
+                    h1
+                        @include mixin.services-home-h1
+                    
+                    p
+                        @include mixin.services-home-p
+
+    .pant
+        position: absolute
+        left: 1137px
+        top: 516px
+        z-index: 1
+
+////////////////////////*End of section-services-home page style*///////////////////////
+
+////////////////////////*Start of section-services-info page style*///////////////////////
+.services-info
+    @include mixin.around
+    height: 100vh
+    width: 100%
+    margin-top: 200px
+
+    .info-content
+        position: absolute
+        width: 516px
+        height: 453px
+        left: 119px
+        top: 1132px
+        
+        h1
+            width: 516px
+            height: 91px
+            font-weight: 600
+            font-size: 30px
+            line-height: 170%
+
+            span
+                color: variables.$color-blue
+        
+        p
+            font-size: variables.$font-small
+            margin-top: 56px
+            width: 476px
+            height: 306px
+            font-weight: 400
+            line-height: 180%
+            color: #545454
+
+        button
+            border: 2px solid variables.$color-blue
+            font-size: variables.$font-small
+            color: variables.$color-blue
+            font-weight: 400
+            width: 193px
+            height: 51px
+            border-radius: 10px
+
+    img
+        position: absolute
+        width: 905px
+        height: 509px
+        left: 515px
+        top: 1094px
+////////////////////////*End of section-services-info page style*///////////////////////
+
+////////////////////////*Start of section-services-home page style*///////////////////////
+.ournumber
+    @include mixin.center
+    width: 100%
+    height: 100vh
+
+    .our-results
+        @include mixin.around
+        background-color: variables.$color-blue
+        width: 100%
+        height: 388px
+
+        .clients
+            @include mixin.center
+            flex-direction: column
+            width: 114px
+            height: 124px
+
+            h1
+               @include mixin.ournumber-h1
+
+            p
+                @include mixin.ournumber-p
+
+        .projects
+            @include mixin.center
+            flex-direction: column
+            width: 161px
+            height: 124px
+
+            h1
+               @include mixin.ournumber-h1
+
+            p
+                @include mixin.ournumber-p
+
+        .transsactions
+            @include mixin.center
+            flex-direction: column
+            width: 114px
+            height: 124px
+
+            h1
+               @include mixin.ournumber-h1
+
+            p
+                @include mixin.ournumber-p
+
+        .customers
+            @include mixin.center
+            flex-direction: column
+            width: 215px
+            height: 124px
+
+            h1
+               @include mixin.ournumber-h1
+
+            p
+                @include mixin.ournumber-p
+
+    .our-image1
+        position: absolute
+        width: 112.26px
+        height: 112.26px
+        left: 1177.18px
+        top: 1653px
+
+    .our-image2
+        position: absolute
+        width: 103px
+        height: 103px
+        left: 309px
+        top: 2041px
+////////////////////////*End of section-services-home page style*///////////////////////
+
+////////////////////////*Start of section-services-home page style*///////////////////////
+.projects
+    display: flex
+    flex-direction: column
+    width: 100%
+    height: 100vh
+////////////////////////*End of section-services-home page style*///////////////////////
+
+////////////////////////*Start of section-services-home page style*///////////////////////
+////////////////////////*End of section-services-home page style*///////////////////////
+
+////////////////////////*End of SERVICES page style*///////////////////////
