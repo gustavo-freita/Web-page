@@ -1452,9 +1452,155 @@ footer .copyright {
   top: 2041px;
 }
 
-.projects {
+.our-projects {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100vh;
+  margin-bottom: 100px;
+}
+.our-projects h1 {
+  width: 337px;
+  height: 64px;
+  letter-spacing: 0.01em;
+  font-size: 36px;
+  font-weight: 500;
+  margin-left: 120px;
+  margin-bottom: 65px;
+}
+.our-projects .projects-content {
+  display: flex;
+  gap: 75px;
+  margin-left: 70px;
+}
+.our-projects .projects-content .first-project {
+  width: 333px;
+  height: 593.07px;
+}
+.our-projects .projects-content .first-project img {
+  width: 333px;
+  height: 306px;
+}
+.our-projects .projects-content .first-project .first-text {
+  width: 333px;
+  height: 247.07px;
+  margin-top: 40px;
+}
+.our-projects .projects-content .first-project .first-text h2 {
+  width: 333px;
+  height: 126.23px;
+  font-size: 23px;
+  line-height: 40.92px;
+  font-weight: 600;
+}
+.our-projects .projects-content .first-project .first-text p {
+  font-size: 16px;
+  color: #868686;
+  font-weight: 400;
+  width: 333px;
+  height: 144.07px;
+  margin-bottom: 40px;
+}
+.our-projects .projects-content .second-project {
+  width: 333px;
+  height: 593.07px;
+}
+.our-projects .projects-content .second-project img {
+  width: 333px;
+  height: 306px;
+}
+.our-projects .projects-content .second-project .first-text {
+  width: 333px;
+  height: 247.07px;
+  margin-top: 40px;
+}
+.our-projects .projects-content .second-project .first-text h2 {
+  width: 333px;
+  height: 126.23px;
+  font-size: 23px;
+  line-height: 40.92px;
+  font-weight: 600;
+}
+.our-projects .projects-content .second-project .first-text p {
+  font-size: 16px;
+  color: #868686;
+  font-weight: 400;
+  width: 333px;
+  height: 144.07px;
+  margin-bottom: 40px;
+}
+.our-projects .projects-content .third-project {
+  width: 333px;
+  height: 593.07px;
+}
+.our-projects .projects-content .third-project img {
+  width: 333px;
+  height: 306px;
+}
+.our-projects .projects-content .third-project .first-text {
+  width: 333px;
+  height: 247.07px;
+  margin-top: 40px;
+}
+.our-projects .projects-content .third-project .first-text h2 {
+  width: 333px;
+  height: 126.23px;
+  font-size: 23px;
+  line-height: 40.92px;
+  font-weight: 600;
+}
+.our-projects .projects-content .third-project .first-text p {
+  font-size: 16px;
+  color: #868686;
+  font-weight: 400;
+  width: 333px;
+  height: 144.07px;
+  margin-bottom: 40px;
+}
+.our-projects .projects-content .fourth-project {
+  position: absolute;
+  width: 334px;
+  height: 593.07px;
+  left: 1278px;
+  top: 2340px;
+}
+.our-projects .projects-content .fourth-project img {
+  width: 333px;
+  height: 306px;
+}
+.our-projects .projects-content .fourth-project .first-text {
+  width: 333px;
+  height: 247.07px;
+  margin-top: 40px;
+}
+.our-projects .projects-content .fourth-project .first-text h2 {
+  width: 333px;
+  height: 126.23px;
+  font-size: 23px;
+  line-height: 40.92px;
+  font-weight: 600;
+}
+.our-projects .projects-content .fourth-project .first-text p {
+  font-size: 16px;
+  color: #868686;
+  font-weight: 400;
+  width: 333px;
+  height: 144.07px;
+  margin-bottom: 40px;
+}
+
+.star3 {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  left: 167px;
+  top: 2948px;
+}
+
+.paichart3 {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  left: 939px;
+  top: 3130px;
 }/*# sourceMappingURL=style.css.map */
