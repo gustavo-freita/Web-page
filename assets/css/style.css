@@ -1603,4 +1603,86 @@ footer .copyright {
   height: 54px;
   left: 939px;
   top: 3130px;
+}
+
+.home-blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+.home-blog .home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 432px;
+  height: 348px;
+}
+.home-blog .home-content h1 {
+  width: 318px;
+  height: 135px;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 74.72px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 41px;
+}
+.home-blog .home-content h1 span {
+  color: #1090cb;
+}
+.home-blog .home-content p {
+  color: #868686;
+  width: 432px;
+  height: 71px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 37.9px;
+  text-align: center;
+  margin-bottom: 52px;
+}
+.home-blog .home-content .searcht i {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 500px;
+  top: 510px;
+  font-size: 20px;
+}
+.home-blog .home-content .searcht input {
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  border: none;
+  width: 400px;
+  height: 49px;
+  margin-bottom: 66px;
+  -webkit-padding-start: 80px;
+          padding-inline-start: 80px;
+}
+.home-blog .button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 946px;
+  height: 48px;
+}
+.home-blog .button button {
+  color: #1090cb;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  background-color: #f1f1f1;
+  width: 162px;
+  height: 48px;
+  border-radius: 30px;
+}
+.home-blog .button .button-blue {
+  background-color: #1090cb;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
