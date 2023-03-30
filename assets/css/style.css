@@ -1859,4 +1859,129 @@ footer .copyright {
   height: 54px;
   left: 939px;
   top: 2900px;
+}
+
+.contact-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  widht: 100%;
+  height: 100vh;
+}
+.contact-home .contact-infos {
+  width: 437px;
+  height: 256px;
+}
+.contact-home .contact-infos span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 77px;
+  height: 77px;
+  border-radius: 50px;
+  background-color: #F5F3DA;
+  margin-bottom: 16px;
+}
+.contact-home .contact-infos .contact-info {
+  width: 437px;
+  height: 163px;
+}
+.contact-home .contact-infos .contact-info h1 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contact-home .contact-infos .contact-info p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #777777;
+}
+.contact-home .contact-local .ellipse4 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 975px;
+  top: 540px;
+}
+.contact-home .contact-local .ellipse3 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 995px;
+  top: 560px;
+}
+
+.contact-us {
+  width: 100%;
+  height: 20vh;
+}
+.contact-us .information {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1188px;
+  height: 102px;
+  margin-left: 80px;
+}
+.contact-us .information .redes {
+  width: 184px;
+  height: 82px;
+}
+.contact-us .information .redes h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.contact-us .information .redes .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 184px;
+  height: 34px;
+  gap: 20px;
+  margin-top: 20px;
+}
+.contact-us .information .redes .icons span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 80px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+}
+.contact-us .information hr {
+  width: 102px;
+  height: 0px;
+  border: 1px solid #C2C2C2;
+  transform: rotate(90deg);
+}
+.contact-us .information .phone {
+  display: flex;
+  width: 221px;
+  height: 30px;
+  gap: 20px;
+}
+.contact-us .information .phone i {
+  width: 30px;
+  height: 30px;
+}
+.contact-us .information .phone p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333333;
+}
+.contact-us .information .location {
+  display: flex;
+  width: 373px;
+  height: 66px;
+  gap: 19px;
+}
+.contact-us .information .location i {
+  font-size: 29px;
+}
+.contact-us .information .location p {
+  font-size: 20px;
+  font-family: "poppins";
+  line-height: 30px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
