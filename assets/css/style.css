@@ -1984,4 +1984,129 @@ footer .copyright {
   font-family: "poppins";
   line-height: 30px;
   font-weight: 300;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #E8F4FA;
+}
+.form .form-infomation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 671px;
+  height: 741px;
+  padding: 63px 0;
+}
+.form .form-infomation .form-info {
+  width: 432px;
+  height: 83px;
+  text-align: center;
+}
+.form .form-infomation .form-info h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.form .form-infomation .form-info p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #777777;
+}
+.form .form-infomation form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 671px;
+  height: 471px;
+  margin-top: 79px;
+}
+.form .form-infomation form .names {
+  display: flex;
+  gap: 27px;
+}
+.form .form-infomation form .names .first-name {
+  width: 322px;
+  height: 87px;
+}
+.form .form-infomation form .names .first-name label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4f4f4f;
+}
+.form .form-infomation form .names .first-name input {
+  width: 322px;
+  height: 56px;
+  margin-top: 10px;
+  border-radius: 9px;
+  border: none;
+}
+.form .form-infomation form .names .last-name {
+  width: 322px;
+  height: 87px;
+}
+.form .form-infomation form .names .last-name label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4f4f4f;
+}
+.form .form-infomation form .names .last-name input {
+  width: 322px;
+  height: 56px;
+  margin-top: 10px;
+  border-radius: 9px;
+  border: none;
+}
+.form .form-infomation form .email {
+  width: 671px;
+  height: 84px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.form .form-infomation form .email label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4f4f4f;
+}
+.form .form-infomation form .email input {
+  width: 671px;
+  height: 56px;
+  margin-top: 10px;
+  border-radius: 9px;
+  border: none;
+}
+.form .form-infomation form .text {
+  width: 671px;
+  height: 260px;
+  margin-bottom: 57px;
+}
+.form .form-infomation form .text label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4f4f4f;
+}
+.form .form-infomation form .text input {
+  width: 671px;
+  height: 232px;
+  margin-top: 10px;
+  border-radius: 9px;
+  border: none;
+  text-align: start;
+}
+.form .form-infomation button {
+  font-size: 16px;
+  background-color: #1090cb;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  width: 193px;
+  height: 51px;
+  margin-left: 478px;
 }/*# sourceMappingURL=style.css.map */
