@@ -6,6 +6,10 @@
   font-family: "Poppins";
 }
 
+body {
+  overflow-x: hidden;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -1450,6 +1454,23 @@ footer .copyright {
   height: 103px;
   left: 309px;
   top: 2041px;
+}
+.ournumber .our-image3 {
+  position: absolute;
+  left: 0;
+  right: 78.06%;
+  top: 1970px;
+}
+.ournumber .our-image4 {
+  position: absolute;
+  left: 4.86%;
+  right: 76.38%;
+  top: 1655px;
+}
+.ournumber .our-image5 {
+  position: absolute;
+  left: 75.42%;
+  top: 1655px;
 }
 
 .our-projects {
