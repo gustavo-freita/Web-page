@@ -1579,7 +1579,6 @@ footer .copyright {
   margin-bottom: 40px;
 }
 .our-projects .projects-content .fourth-project {
-  position: absolute;
   width: 334px;
   height: 593.07px;
   left: 1278px;
@@ -1612,16 +1611,12 @@ footer .copyright {
 
 .star3 {
   position: absolute;
-  width: 66px;
-  height: 66px;
   left: 167px;
   top: 2948px;
 }
 
 .paichart3 {
   position: absolute;
-  width: 54px;
-  height: 54px;
   left: 939px;
   top: 3130px;
 }
